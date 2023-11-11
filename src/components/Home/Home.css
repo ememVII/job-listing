@@ -1,0 +1,18 @@
+.bg-desktop {
+    background-color: var(--Desaturated-Dark-Cyan);
+}
+
+.bg-mobile {
+    display: none;
+    background-color: var(--Desaturated-Dark-Cyan)
+}
+
+@media (max-width: 767px) {
+    .bg-desktop {
+        display: none;
+    }
+    
+    .bg-mobile {
+        display: block;
+    }
+}

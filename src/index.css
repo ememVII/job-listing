@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700&display=swap');
+
+:root {
+--Desaturated-Dark-Cyan: hsl(180, 29%, 50%);
+--Light-Cyan--bg: hsl(180, 52%, 96%);
+--Light-Cyan--filter: hsl(180, 31%, 95%);
+--Dark-Cyan: hsl(180, 8%, 52%);
+--Very-Dark-Cyan: hsl(180, 14%, 20%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    overflow-x: hidden;
+    background-color: var(--Light-Cyan--filter) !important;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.attribution {
+    background-color: var(--Light-Cyan--filter);
+    padding: 10px ;
+    font-weight: 600;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease;
+}
+
+.attribution a:hover {
+    color: var(--Very-Dark-Cyan);
+}
+
+@media (max-width: 767px) {
+    .attribution {
+        margin-top: 3rem;
+    }
+}

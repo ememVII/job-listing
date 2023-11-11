@@ -1,0 +1,17 @@
+.job-info button {
+    background-color: var(--Light-Cyan--filter);
+    color: var(--Desaturated-Dark-Cyan);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: 0.2s ease;
+    margin: 0 5px;
+    box-shadow: 0px 3px 10px -7px var(--Desaturated-Dark-Cyan);
+    border: none;
+}
+
+.job-info button:hover {
+    background-color: var(--Desaturated-Dark-Cyan);
+    color: var(--Light-Cyan--filter);
+}

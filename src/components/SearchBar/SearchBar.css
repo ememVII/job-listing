@@ -1,0 +1,51 @@
+.search-card {
+    background-color: hsl(80, 20%, 98%);
+    padding: 1.2rem;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px -3px var(--Desaturated-Dark-Cyan);
+    transform: translateY(-50%);
+}
+
+.search-card button {
+    color: var(--Desaturated-Dark-Cyan);
+    border: none;
+    border-radius: 5px;
+}
+
+.search-card p {
+    background-color: var(--Light-Cyan--filter);
+    color: var(--Desaturated-Dark-Cyan);
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-card .clearAllBtn {
+    font-size: 17px;
+    font-weight: 600;
+    background-color: transparent;
+    transition: 0.2s ease;
+    margin-left: auto;
+}
+
+.search-card .clearAllBtn:hover {
+    text-decoration: underline;
+}
+
+.search-card .removeBtn {
+    background-color: var(--Desaturated-Dark-Cyan);
+    border-radius: 0 5px 5px 0;
+    padding: 3px 8px;
+    margin-left: 7px;
+    transition: 0.2s ease;
+}
+
+.search-card .removeBtn:hover {
+    background-color: var(--Very-Dark-Cyan);
+}
+
+.search-card img {
+    width: 14px;
+}
